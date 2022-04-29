@@ -1,0 +1,45 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+.text{
+	text-shadow: 2px 2px 5px #111;
+}
+
+.backimage-gallary{
+	background-image: url(./assets/gallary1.jpg)
+}
+.backimage-gif{
+	background-image: url(./assets/main.gif);
+	/* background-image: url(./assets/hello.png); */
+}
+.backimage-global{
+	background-image: url(./assets/Global_warming.png);
+}
+.backimage-midnight{
+	background-image: url(./assets/Midnight_City.png);
+}
+.backimage-mountain{
+	background-image: url(./assets/Mountain.png);
+}
+.backimage-sunset{
+	background-image: url(./assets/Painting_of_beach_sunset.png);
+}
+.backimage-war{
+	background-image: url(./assets/Painting_of_refugee_in_war.png);
+}
+.backimage-underwater{
+	background-image: url(./assets/Underwater_city.png);
+}
+
+.toggle-checkbox:checked { 
+	@apply: right-0 border-green-400; 
+	right: 0; 
+	border-color: #ff192d;
+}
+.toggle-checkbox:checked + .toggle-label { 
+	@apply: bg-green-400; 
+	background-color: #fb3960;
+}
